@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.26)  26 DEC 2023 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.26)  26 DEC 2023 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/JavierZatonMiguel/GitHubJZM/CE2_LaTeX/CE2 Informe/00-main.tex"
-(c:/Users/JavierZatonMiguel/GitHubJZM/CE2_LaTeX/CE2 Informe/00-main.tex
+**c:/Users/JavierZatonMiguel/GitHubJZM/CE2_LaTeX/00-main.tex
+(c:/Users/JavierZatonMiguel/GitHubJZM/CE2_LaTeX/00-main.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 (C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -329,20 +329,7 @@ Package: fp-eval 1995/04/03
 \dtl@codeA=\count308
 \dtl@codeB=\count309
 \@dtl@foreach@level=\count310
-)
-
-C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty:1182: LaTeX Error: Unknown option `hyper' for package `glossaries'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1182 \ifglsautomake
-                     
-The option `hyper' was not declared in package `glossaries', perhaps you
-misspelled its name. Try typing  <return>  to proceed.
-
-(C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+) (C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
  (C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
@@ -936,7 +923,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen352
 \titlewidthlast=\dimen353
 \titlewidthfirst=\dimen354
-) (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
+) (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 )
@@ -998,7 +985,7 @@ LaTeX Info: Redefining \% on input line 8.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 8.
-(c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out) (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out)
+(c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out) (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out)
 \@outlinefile=\write7
 \openout7 = `00-main.out'.
 
@@ -1046,7 +1033,7 @@ Package pdftex.def Info: IM/ARIEL-LOGO.png  used on input line 28.
 
 \openout3 = `00-main.ist'.
 
-{C:/Users/JavierZatonMiguel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo_portada.png> <./IM/ARIEL-LOGO.png>] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.toc
+{C:/Users/JavierZatonMiguel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo_portada.png> <./IM/ARIEL-LOGO.png>] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
@@ -1060,7 +1047,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write8
 \openout8 = `00-main.toc'.
 
- [1] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lof
+ [1] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1069,7 +1056,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 LaTeX Info: Redefining \. on input line 76.
 LaTeX Info: Redefining \% on input line 76.
- [2] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lot
+ [2] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1093,7 +1080,7 @@ l.21 \subsubsection{Malla 4}
                              [1])
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [2] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
+ [2] (c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 )
@@ -1106,16 +1093,16 @@ Package rerunfilecheck Info: File `00-main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  47715 strings out of 474495
- 1108386 string characters out of 5738270
+ 1108066 string characters out of 5738270
  1934460 words of memory out of 5000000
  69171 multiletter control sequences out of 15000+600000
  571657 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,11n,131p,2451b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,11n,131p,2437b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
-Output written on "c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.pdf" (7 pages, 253894 bytes).
+Output written on c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.pdf (7 pages, 254206 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

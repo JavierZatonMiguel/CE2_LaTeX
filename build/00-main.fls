@@ -1,7 +1,7 @@
-PWD c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe
+PWD c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\00-main.tex
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.log
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\00-main.tex
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.log
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -188,8 +188,8 @@ INPUT .\01-ACRONIMOS.tex
 INPUT .\01-ACRONIMOS.tex
 INPUT .\01-ACRONIMOS.tex
 INPUT 01-ACRONIMOS.tex
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.glo
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.acn
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.glo
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.acn
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -453,18 +453,18 @@ INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\notocci
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\notoccite\notoccite.sty
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.pdf
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.pdf
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -494,13 +494,13 @@ INPUT .\IM\ARIEL-LOGO.png
 INPUT .\IM\ARIEL-LOGO.png
 INPUT .\IM\ARIEL-LOGO.png
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.ist
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.ist
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.toc
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.toc
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.toc
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.toc
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.toc
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.toc
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -534,15 +534,15 @@ INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.toc
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lof
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lof
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lof
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lof
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lot
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lot
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lot
-OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.lot
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.toc
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lof
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lof
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lof
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lof
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lot
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lot
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lot
+OUTPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.lot
 INPUT .\1-Estado del arte.tex
 INPUT .\1-Estado del arte.tex
 INPUT 1-Estado del arte.tex
@@ -551,9 +551,9 @@ INPUT .\2-Sensibilidad de mallado en Cooldown (Hinges).tex
 INPUT .\2-Sensibilidad de mallado en Cooldown (Hinges).tex
 INPUT .\2-Sensibilidad de mallado en Cooldown (Hinges).tex
 INPUT 2-Sensibilidad de mallado en Cooldown (Hinges).tex
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.aux
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
-INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\CE2 Informe\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.aux
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
+INPUT c:\Users\JavierZatonMiguel\GitHubJZM\CE2_LaTeX\build\00-main.out
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\JavierZatonMiguel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
