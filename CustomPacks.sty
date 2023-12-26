@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PARA ESCRIBIR TEXTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}         % Para escribir en español y esas cosas
+\usepackage[T1]{fontenc} 
+\usepackage[spanish, es-tabla]{babel} % Para que ponga tabla en vez de cuadro
+
+\usepackage{titling}
+\usepackage{afterpage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MÁRGENES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[a4paper]{geometry} 
+    \geometry{hmargin={2.35cm,2.35cm},height=24cm}  % Configuración de márgenes
+    \setlength{\parskip}{0.35cm}                    % Distancia entre párrafos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ÍNDICE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{2} % Para que solo numere hasta subsubsection
+\setcounter{tocdepth}{2} % Para que en el índice solo aparezca hasta subsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Links y referencias en el propio texto %%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[bookmarks = true, colorlinks=true, linkcolor = black, citecolor = black, menucolor = black, urlcolor = black]{hyperref} % Para que los links no aparezcan de colores
+
+\renewcommand\thefootnote{\textcolor{red}{\arabic{footnote}}} % Para que los números de los footnotes aparezcan en rojo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACRÓNIMOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[acronym,hyper=false,nonumberlist]{glossaries}
+\addto\captionsspanish{\renewcommand{\acronymname}{Acrónimos}}
+\input{01-ACRONIMOS}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TIPOGRAFÍA, ECUACIONES Y DEMÁS %%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[table,xcdraw]{xcolor} % Colores
+\usepackage{amsmath,amssymb} % Para expresiones matemáticas y sus tipografías
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{schemata} % Para llaves y esquemas
+% \usepackage[colorlinks=true, allcolors=black]{hyperref} % Para links
+\usepackage{enumerate}
+\usepackage{afterpage}
+\usepackage{bm}
+\usepackage{siunitx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% IMÁGENES, GRÁFICAS, TABLAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx} % Para gráficas e imágenes
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+%   %   \usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{svg}
+% \usepackage{subfiles} % Subfiles Overleaf
+\usepackage{booktabs} % Para tablas súper pro
+\usepackage{lipsum}
+
+\usepackage{tikz, pgfplots} % Para figuras en Tikz
+% \pgfplotsset{compat=1.18} 
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usepackage{float}
+\usetikzlibrary{arrows.meta}
+
+% \newlength\figureheight
+% \newlength\figurewidth
+% \newlength\fwidth
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+\usepackage{epsfig}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PERSONALIZACIÓN DE LAS PÁGINAS %%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\setlength{\headheight}{10mm}
+\fancyhf{} % clear the header and footers
+\pagestyle{fancy}
+% \renewcommand{\chaptermark}[1]{}
+% \renewcommand{\sectionmark}[1]{} 
+\renewcommand{\headrulewidth}{0.1pt} % Grosor línea cabecera
+\renewcommand{\footrulewidth}{0pt} % Grosor línea pie de página
+% \fancyhead[L]{\leftmark}
+% \fancyhead[C]{\includegraphics[height=0.75cm]{Logo_Muse}}
+% \fancyhead[R]{\includegraphics[width=0.75cm]{ESCUDO_UPM.pdf}}
+\lhead[]{\nouppercase{\leftmark}}
+% \rhead[\nouppercase{\textit{\rightmark}}]{\nouppercase{\textit{\rightmark}}}
+\fancyfoot[C]{\thepage}
+% \fancyfoot[L]{\includegraphics[width=1.5cm]{EU2SPACE.jpg}}
+% \fancyfoot[R]{\includegraphics[width=1.5cm]{EU_2Space.jpg}}
+\widowpenalty=100000
+\clubpenalty=100000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAFÍA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[numbers]{natbib}
+\usepackage{notoccite} 
+\setcitestyle{author,square}
+
+
+\pgfplotsset{compat=1.18}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\spanishdecimal{.}

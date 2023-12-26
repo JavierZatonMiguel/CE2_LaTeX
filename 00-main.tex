@@ -1,0 +1,92 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{CustomPacks}
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PORTADA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\thispagestyle{empty}
+
+\includegraphics[width=\textwidth]{Logo_portada.png} \\
+\vspace{0.5cm}
+{ \large
+Universidad Politécnica de Madrid \\
+Instituto Universitario de Microgravedad “Ignacio Da Riva” \\
+Máster Universitario en Sistemas Espaciales}\\  \hrulefill \\ 
+\vspace{0.5cm}
+{\large XXXXXXXXXX}\\ 
+\vspace{1.5cm} % 1.75
+
+{\huge \textbf{XXXXX}}\\ 
+\vspace{0.5cm}
+
+{\huge \textbf{XXXXXX}}\\ 
+\vspace{0.5cm}
+
+\vspace{1.5cm} % 6.5
+\begin{center}
+        \vspace{0.5cm}
+        {\large XXXXX } \\ \href{mailto:XXXXX@alumnos.upm.es} {XXXXX@alumnos.upm.es} \vspace{1.5cm}
+
+       % {\large Profesora: Elena Roibás} \\
+       % \href{mailto:ignacio.torralbo@upm.es} {elena.roibas@upm.es} \hspace{0.5cm}
+\vspace{0.5cm}
+\end{center}
+\end{center}
+
+
+\vspace{3.0cm}
+
+\begin{center}
+    \large{\textbf{\today}}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CABECERO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\rhead[]{XXXXXXX}
+\thispagestyle{empty}
+%\tableofcontents
+
+\newpage
+\rhead[]{XXXXXXX}
+%\thispagestyle{empty}
+%\listoffigures
+%\listoftables
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INDICES y GLOSARIO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+% \thispagestyle{empty}
+
+\pagenumbering{Roman} % Los índices y acrónimos se numerarán con números romanos
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\listoftables
+
+\newpage
+    \printglossary[type=\acronymtype]
+\newpage
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%% CONTENIDO DEL INFORME %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{page}{1} % Para que empiece a contar en 1
+\rhead[]{XXXXXXX}
+
+\input{1-Estado del arte.tex}
+
+\end{document}
