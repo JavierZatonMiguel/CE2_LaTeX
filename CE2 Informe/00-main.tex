@@ -2,6 +2,9 @@
 
 \usepackage{CustomPacks}
 
+\usepackage{titlesec}
+\titlelabel{\thetitle\enspace}
+
 \begin{document}
 
 
@@ -11,24 +14,23 @@
 
 \includegraphics[width=\textwidth]{Logo_portada.png} \\
 \vspace{0.5cm}
-{ \large
+{\large
 Universidad Politécnica de Madrid \\
 Instituto Universitario de Microgravedad “Ignacio Da Riva” \\
-Máster Universitario en Sistemas Espaciales}\\  \hrulefill \\ 
+Máster Universitario en Sistemas Espaciales}\\ 
 \vspace{0.5cm}
-{\large XXXXXXXXXX}\\ 
+{\large Caso de Estudio 2}\\ 
 \vspace{1.5cm} % 1.75
 
-{\huge \textbf{XXXXX}}\\ 
+{\huge \textbf{Modelización térmica del Telescope Assembly de la misión ARIEL mediante ESATAN-TMS}}\\ 
 \vspace{0.5cm}
 
-{\huge \textbf{XXXXXX}}\\ 
-\vspace{0.5cm}
+\includegraphics[width= 7cm]{IM/ARIEL-LOGO.png}
 
-\vspace{1.5cm} % 6.5
+\vspace{1cm} % 6.5
 \begin{center}
         \vspace{0.5cm}
-        {\large XXXXX } \\ \href{mailto:XXXXX@alumnos.upm.es} {XXXXX@alumnos.upm.es} \vspace{1.5cm}
+        {\large Zatón Miguel, Javier } \\ \href{mailto:javier.zmiguel@alumnos.upm.es} {javier.zmiguel@alumnos.upm.es} \vspace{1.5cm}
 
        % {\large Profesora: Elena Roibás} \\
        % \href{mailto:ignacio.torralbo@upm.es} {elena.roibas@upm.es} \hspace{0.5cm}
@@ -37,7 +39,7 @@ Máster Universitario en Sistemas Espaciales}\\  \hrulefill \\
 \end{center}
 
 
-\vspace{3.0cm}
+\vspace{0.5cm}
 
 \begin{center}
     \large{\textbf{\today}}
@@ -46,12 +48,12 @@ Máster Universitario en Sistemas Espaciales}\\  \hrulefill \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CABECERO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\rhead[]{XXXXXXX}
+\rhead[]{CE2}
 \thispagestyle{empty}
 %\tableofcontents
 
 \newpage
-\rhead[]{XXXXXXX}
+\rhead[]{CE2}
 %\thispagestyle{empty}
 %\listoffigures
 %\listoftables
@@ -83,10 +85,19 @@ Máster Universitario en Sistemas Espaciales}\\  \hrulefill \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%% CONTENIDO DEL INFORME %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
 
 \setcounter{page}{1} % Para que empiece a contar en 1
-\rhead[]{XXXXXXX}
+\rhead[]{CE2}
+
+
+%Comandos para usar esto \acrlong{gcd},  \acrshort{adcs}. \acrfull{lcm}.
+%Creo que hay varias opciones para que ponga los acrónimos, o bien ssolo cuando aparecen y en qué página lo han hecho o bien por orden alfabético, se usen o no (lo que queráis)
+
+%\input{01-ACRONIMOS}
 
 \input{1-Estado del arte.tex}
+
+\input{2-Sensibilidad de mallado en Cooldown (Hinges)}
 
 \end{document}
